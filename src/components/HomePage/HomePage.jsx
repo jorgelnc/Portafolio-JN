@@ -1,17 +1,19 @@
 import React from "react";
 import "../HomePage/HomePage.css";
 import imgProfile from "../../assets/img/Imagen2.png";
+import NavBar from "../NavBar/NavBar";
 
 function HomePage() {
   return (
     <div className="container">
+      <NavBar />
       <div className="hero" id="hero">
         <ul className={"hero-list list"}>
           <li className="hero-item-list">
             <h1>Jorge Luis Nava Colina</h1>
           </li>
           <li className="hero-item-list">
-            <h2>Ingeniero en computacion</h2>
+            <h2>Ingeniero en computación</h2>
           </li>
           <li className="hero-item-list">
             <h2>Desarrollador Web</h2>
